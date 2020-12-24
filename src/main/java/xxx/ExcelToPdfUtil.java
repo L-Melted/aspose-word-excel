@@ -57,21 +57,4 @@ public class ExcelToPdfUtil {
             return false;
         }
     }
-
-
-    public static void main(String[] args) {
-        String sourcePath = "D:\\test.xlsx";
-        String targetPath = "D:\\test.pdf";
-        // 验证License
-        if (!getLicense()) {
-            return;
-        }
-
-        long old = System.currentTimeMillis();
-        if (excelConvertToPdf(sourcePath, targetPath)) {
-            long now = System.currentTimeMillis();
-            System.out.println("Excel转Pdf成功，共耗时：" + ((now - old) / 1000.0) + "秒");
-        }
-
-    }
 }

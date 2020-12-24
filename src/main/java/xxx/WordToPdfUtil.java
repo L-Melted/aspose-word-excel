@@ -57,20 +57,4 @@ public class WordToPdfUtil {
         }
     }
 
-
-    public static void main(String[] args) {
-        String sourcePath = "D:\\CYD\\公司领导测评操作手册20201205.docx";
-        String targetPath = "D:\\test.pdf";
-        // 验证License
-        if (!getLicense()) {
-            return;
-        }
-
-        long old = System.currentTimeMillis();
-        if (wordConvertToPdf(sourcePath,targetPath)) {
-            long now = System.currentTimeMillis();
-            System.out.println("word转pdf成功,共耗时：" + ((now - old) / 1000.0) + "秒");
-        }
-
-    }
 }
