@@ -25,6 +25,7 @@ public class PDFWatermarkTest {
         }
         //保存
         pdf.saveToFile(targetPath);
+        PDFWatermark.addWatermark(sourcePath, "hahah");
         //关闭
         pdf.close();
     }

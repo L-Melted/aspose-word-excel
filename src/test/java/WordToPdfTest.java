@@ -1,11 +1,4 @@
-import com.aspose.words.Document;
-import com.aspose.words.License;
-import com.aspose.words.SaveFormat;
-import xxx.WordToPdfUtil;
-
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.InputStream;
+import xxx.util.WordToPdfUtil;
 
 /**
  *  @author: xxxx

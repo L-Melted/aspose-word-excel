@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65aaa710-a5c8-4dac-80d9-d4c9744b4f49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PDFWatermarkToPngTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/aspose_pdf_17_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/aspose.pdf-17.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AsposePDFWatermarkTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xxx/ExcelToPdfUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xxx/ExcelToPdfUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xxx/WordToPdfUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xxx/WordToPdfUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xxx/ExcelToPdfUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xxx/util/ExcelToPdfUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xxx/WordToPdfUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xxx/util/WordToPdfUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExcelToPdfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExcelToPdfTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PDFWatermarkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PDFWatermarkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WordToPdfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WordToPdfTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,10 +26,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xxx/WordToPdfUtil.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+            <state relative-caret-position="459">
+              <caret line="29" column="19" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="29" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xxx/util/WordToPdfUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,32 +46,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/xxx/util/PDFWatermark.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+            <state relative-caret-position="255">
+              <caret line="77" lean-forward="true" selection-end-line="129" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://F:/DevelopmentTools/Java/jdk1.8.0_152/src.zip!/java/io/FileInputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-497">
-              <caret line="92" column="34" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://F:/DevelopmentTools/Java/jdk1.8.0_152/src.zip!/java/io/File.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -66,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PDFWatermarkTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="20" column="53" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="53" />
+            <state relative-caret-position="561">
+              <caret line="23" column="19" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,32 +71,53 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PDFWatermarkToPngTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AsposePDFWatermarkTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/e-iceblue/spire.doc.free/3.9.0/spire.doc.free-3.9.0.jar!/com/spire/pdf/PdfDocument.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="1282" column="25" selection-start-line="1282" selection-start-column="25" selection-end-line="1282" selection-end-column="25" />
+            <state relative-caret-position="351">
+              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding>
-                <element signature="e#39484#39485#0" expanded="true" />
-                <element signature="e#39536#39537#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xxx/ExcelToPdfUtil.java">
+        <entry file="jar://$PROJECT_DIR$/src/main/resources/lib/aspose.pdf-17.3.0.jar!/com/aspose/pdf/TextState.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="192">
+              <caret line="1133" column="16" selection-start-line="1133" selection-start-column="16" selection-end-line="1133" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/DevelopmentTools/Java/jdk1.8.0_152/src.zip!/java/awt/Color.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
+              <folding>
+                <element signature="e#24437#24438#0" expanded="true" />
+                <element signature="e#24478#24479#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PDFWatermarkToPngTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xxx/util/ExcelToPdfUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -109,17 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ExcelToPdfTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/WordToPdfTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="18" column="11" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="324">
+              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -138,6 +145,8 @@
       <find>String file</find>
       <find>wordfilePath</find>
       <find>FileInputStream</find>
+      <find>Light</find>
+      <find>lightGray</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,13 +160,14 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/xxx/ExcelToPdfTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ExcelToPdfTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/xxx/WordToPdfTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/WordToPdfTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PDFWatermarkTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/xxx/ExcelToPdfUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/xxx/WordToPdfUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/PDFWatermarkToPngTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ExcelToPdfTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PDFWatermarkTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AsposePDFWatermarkTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/xxx/util/PDFWatermark.java" />
       </list>
     </option>
@@ -236,16 +246,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xxx" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aspose-word-excel" type="b2602c69:ProjectViewProjectNode" />
               <item name="aspose-word-excel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xxx" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aspose-word-excel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aspose-word-excel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aspose-word-excel" type="b2602c69:ProjectViewProjectNode" />
@@ -280,7 +296,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -295,6 +311,7 @@
       <recent name="xxx" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\Desktop\aspose-word-excel\src\main\resources\lib" />
       <recent name="C:\Users\DELL\Desktop\AsposeWord\src\main\resources\lib" />
       <recent name="C:\Users\DELL\Desktop\AsposeWord\src\main\resources" />
     </key>
@@ -311,13 +328,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PDFWatermarkToPngTest">
+  <component name="RunManager" selected="Application.PDFWatermarkTest">
     <configuration name="ExcelToPdfTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xxx.ExcelToPdfTest" />
       <module name="aspose-word-excel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xxx.*" />
+          <option name="PATTERN" value="xxx.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -338,22 +355,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PDFWatermarkToPngTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PDFWatermarkToPngTest" />
+    <configuration name="PDFWatermarkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PDFWatermarkTest" />
       <module name="aspose-word-excel" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xxx.Test" />
+    <configuration name="PDFWatermarkToPngTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PDFWatermarkToPngTest" />
       <module name="aspose-word-excel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xxx.ExcelToPdfTest" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -363,7 +374,7 @@
       <module name="aspose-word-excel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xxx.*" />
+          <option name="PATTERN" value="xxx.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -420,11 +431,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PDFWatermarkTest" />
         <item itemvalue="Application.PDFWatermarkToPngTest" />
         <item itemvalue="Application.PDFWatermark" />
         <item itemvalue="Application.WordToPdfTest" />
         <item itemvalue="Application.ExcelToPdfTest" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +450,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608781035745</updated>
       <workItem from="1608781038775" duration="4638000" />
-      <workItem from="1608789466859" duration="7477000" />
+      <workItem from="1608789466859" duration="9420000" />
     </task>
     <task id="LOCAL-00001" summary="word转pdf">
       <created>1608781697953</created>
@@ -476,11 +487,18 @@
       <option name="project" value="LOCAL" />
       <updated>1608795549822</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="图片加水印和重命名">
+      <created>1608797167156</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608797167156</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12115000" />
+    <option name="totallyTimeSpent" value="14058000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="101" y="-8" width="1827" height="1096" extended-state="6" />
@@ -526,7 +544,8 @@
     <MESSAGE value="word转pdf" />
     <MESSAGE value="excel转pdf" />
     <MESSAGE value="代码优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码优化" />
+    <MESSAGE value="图片加水印和重命名" />
+    <option name="LAST_COMMIT_MESSAGE" value="图片加水印和重命名" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/src/main/resources/lib/aspose-cells-8.5.2.jar!/com/aspose/cells/Workbook.class">
@@ -543,13 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/license.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -560,41 +572,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/WordToPdfTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="18" column="11" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xxx/ExcelToPdfUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ExcelToPdfTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xxx/WordToPdfUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PDFWatermarkTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="11" column="11" selection-end-line="24" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -623,20 +601,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PDFWatermarkToPngTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ExcelToPdfTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        <state relative-caret-position="324">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xxx/util/ExcelToPdfUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xxx/util/WordToPdfUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DevelopmentTools/Java/jdk1.8.0_152/src.zip!/java/awt/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
+          <folding>
+            <element signature="e#24437#24438#0" expanded="true" />
+            <element signature="e#24478#24479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/resources/lib/aspose.pdf-17.3.0.jar!/com/aspose/pdf/TextState.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="1133" column="16" selection-start-line="1133" selection-start-column="16" selection-end-line="1133" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AsposePDFWatermarkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="19" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="29" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xxx/util/PDFWatermark.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+        <state relative-caret-position="255">
+          <caret line="77" lean-forward="true" selection-end-line="129" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PDFWatermarkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="23" column="19" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PDFWatermarkToPngTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
         </state>
       </provider>
     </entry>
