@@ -9,12 +9,7 @@ import com.aspose.cells.SaveFormat;
 import com.aspose.cells.Workbook;
 
 /**
- * 
  * 由于ASPOSE比较吃内存，操作大一点的文件就会堆溢出，所以请先设置好java虚拟机参数：-Xms512m -Xmx512m(参考值)<br>
- * 如有疑问，请在CSDN下载界面留言,或者联系QQ569925980<br>
- * 
- * @author Spark
- *
  */
 public class ExcelToPdfTest {
 
